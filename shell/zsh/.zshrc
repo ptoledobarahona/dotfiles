@@ -9,7 +9,7 @@ setopt +o nomatch
 # setopt autopushd
 
 ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
-
+eval "$(zoxide init bash)"
 # Start Zim
 source "$ZIM_HOME/init.zsh"
 
